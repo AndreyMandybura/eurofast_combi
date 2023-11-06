@@ -27,6 +27,7 @@ h2,
 h3,
 p {
     margin-top: 0;
+    margin-bottom: 0;
 }
 
 .visually-hidden {
@@ -53,8 +54,8 @@ p {
 
 .container {
     width: 100%;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 @media screen and (min-width: 425px) {
@@ -88,9 +89,28 @@ p {
     height: auto;
 }
 
+.page-header-left {
+    width: 100px;
+    height: 52px;
+    background-image: url(../images/Rectangle\ 102.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+}
+
 .page-header-bg {
-    position: relative;
-    width: 200px;
+    height: 52px;
+    width: 100%;
+    background-image: url(../images/header_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     align-items: center;
 }
@@ -122,3 +142,79 @@ p {
     height: 19px;
     right: 15px;
 }
+
+.hero-box {
+    width: auto;
+    height: 600px;
+    background-color: #c4c4c4;
+    background-image: linear-gradient(to top right,
+            rgba(255, 91, 62, 1),
+            rgba(13, 122, 248, 1));
+}
+
+.hero-photo-box {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+}
+
+.hero-photo {
+    width: 312px;
+    height: 224px;
+}
+
+.hero-text-box {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+.hero-text {
+    max-width: 250px;
+    min-height: 87px;
+    background-color: #fff;
+    opacity: 0.84;
+    border-radius: 22px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -25px;
+}
+
+.hero-title-text {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.18;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+
+.hero-title-text_span {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 1.18;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+
+.hero-medal {
+    position: absolute;
+    width: 69px;
+    height: 82px;
+    top: 267px;
+    right: 15px;
+}
+
+.hero-photo-text {
+    position: absolute;
+    padding-left: 10px;
+    top: 150px;
+}
+
