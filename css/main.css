@@ -463,20 +463,20 @@ p {
 
 .effekt-box {
     width: auto;
-    height: 737px;
+    height: auto;
     background-color: #c4c4c4;
     background-image: linear-gradient(to bottom,
         rgba(1, 95, 189, 1),
         rgba(1, 95, 189, 0.88),
         rgba(1, 95, 189, 0));
     
-    @media screen and (min-width: 375px) {
-            height: 770px;
+    /* @media screen and (min-width: 375px) {
+            height: auto;
         }
     
         @media screen and (min-width: 425px) {
-            height: 826px;
-        }
+            height: auto;
+        } */
 }
 
 .effect-title {
@@ -590,4 +590,17 @@ p {
     width: auto;
     height: auto;
     padding-top: 30px;
+}
+
+.effect-second-box {
+    width: 100%;
+    height: 731px;
+    background-image: url(../images/effect_second_bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
 }
