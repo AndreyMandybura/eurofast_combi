@@ -852,3 +852,123 @@ p {
             width: 320px;
         }
 }
+
+.section-buy-box {
+    height: 550px;
+    background-image: url(../images/buy_bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.buy-title {
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 1.18;
+    letter-spacing: 0.02em;
+    color: #000000;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 60px;
+    margin-bottom: 30px;
+}
+
+.buy-photo {
+    width: 196px;
+    height: 193px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+
+    @media screen and (min-width: 375px) {
+            margin-bottom: 25px;
+        }
+}
+
+.buy-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buy-one-twoo-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 16px;
+}
+
+.buy-one-btn {
+    width: 118px;
+    height: 65px;
+    background-color: #FFFFFF;
+    border: 1px solid #bbbbbb;
+    border-radius: 12px;
+    margin-bottom: 25px;
+
+    @media screen and (min-width: 375px) {
+            width: 145px;
+        }
+    
+        @media screen and (min-width: 425px) {
+            width: 155px;
+        }
+}
+
+.buy-twoo-btn {
+    width: 118px;
+    height: 65px;
+    background-color: #FFFFFF;
+    border: 1px solid #bbbbbb;
+    border-radius: 12px;
+
+    @media screen and (min-width: 375px) {
+            width: 145px;
+        }
+    
+        @media screen and (min-width: 425px) {
+            width: 155px;
+        }
+}
+
+.buy-three-four-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 16px;
+}
+
+.buy-three-btn {
+    width: 118px;
+    height: 65px;
+    background-color: #FFFFFF;
+    border: 1px solid #bbbbbb;
+    border-radius: 12px;
+    margin-bottom: 25px;
+
+    @media screen and (min-width: 375px) {
+            width: 145px;
+        }
+    
+        @media screen and (min-width: 425px) {
+            width: 155px;
+        }
+}
+
+.buy-four-btn {
+    width: 118px;
+    height: 65px;
+    background-color: #FFFFFF;
+    border: 1px solid #bbbbbb;
+    border-radius: 12px;
+
+    @media screen and (min-width: 375px) {
+            width: 145px;
+        }
+    
+        @media screen and (min-width: 425px) {
+            width: 155px;
+        }
+}
