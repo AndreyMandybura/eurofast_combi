@@ -739,3 +739,50 @@ p {
     color: #FFFFFF;
     margin-left: 16px;
 }
+
+.section-readings-box {
+    height: 952px;
+}
+
+.readings-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.readings-box {
+    background-image: url(../images/effect_second_bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 40px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 6px;
+}
+
+.readings-tumb {
+    display: flex;
+    align-items: center;
+    margin-bottom: 14px;
+}
+
+.readings-icon {
+    width: 90px;
+    height: 90px;
+    margin-right: 14px;
+}
+
+.readings-icon-title {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.18;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
