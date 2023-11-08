@@ -786,3 +786,13 @@ p {
     letter-spacing: 0.02em;
     color: #FFFFFF;
 }
+
+.section-metod-box {
+    height: 913px;
+    background-image: url(../images/effect_second_bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+}
