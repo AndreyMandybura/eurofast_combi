@@ -1049,3 +1049,43 @@ p {
             font-size: 20px;
         }
 }
+
+.section-warning {
+    height: 570px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+
+.warning-lifecare-logo {
+    width: 189px;
+    height: 77px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+.warning-note {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 1.18;
+    letter-spacing: 0.02em;
+    color: #8f8f8f;
+    margin-bottom: 30px;
+}
+
+.warning-text {
+    font-family: Inter;
+    font-weight: 100;
+    font-size: 34px;
+    line-height: 1.18;
+    letter-spacing: 0.02em;
+    color: #8f8f8f;
+    text-align: center;
+
+    @media screen and (min-width: 375px) {
+            font-size: 38px;
+        }
+}
