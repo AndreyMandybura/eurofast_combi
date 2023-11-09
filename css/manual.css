@@ -1,0 +1,443 @@
+:root {
+    --main-font: "Inter", sans-serif;
+    --font-color: #5e5e5e;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.visually-hidden {
+    position: absolute !important;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0 !important;
+    border: 0 !important;
+    height: 1px !important;
+    width: 1px !important;
+    overflow: hidden;
+    margin: 0;
+}
+
+.list {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+.txt-deco {
+    text-decoration: none;
+}
+
+.container {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+@media screen and (min-width: 425px) {
+    .container {
+        max-width: 425px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .container {
+        max-width: 1440px;
+    }
+}
+
+.page-header-box {
+    height: 52px;
+    display: flex;
+    align-items: center;
+}
+
+.page-header-left {
+    width: 100px;
+    height: 52px;
+    background-image: url(../images/Rectangle\ 102.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+}
+
+.page-header-bg {
+    height: 52px;
+    width: 100%;
+    background-image: url(../images/header_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+}
+
+.main-title-box {
+    padding-top: 30px;
+}
+
+.main-photo {
+    width: 111px;
+    height: 103px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+.main-title-tumb {
+    margin-bottom: 30px;
+}
+
+.main-title {
+    font-family: var(--main-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.18;
+    letter-spacing: 0.02em;
+    color: #7e7e7e;
+    margin-bottom: 30px;
+}
+
+.main-title-components {
+    font-family: var(--main-font);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.18;
+    letter-spacing: 0.02em;
+    color: #7e7e7e;
+}
+
+.main-title-components :nth-child(n) {
+    margin-bottom: 10px;
+}
+
+.components-title {
+    font-family: var(--main-font);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.18;
+    letter-spacing: 0.02em;
+    color: var(--font-color);
+    margin-bottom: 16px;
+}
+
+.components-text {
+    font-family: var(--main-font);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.18;
+    letter-spacing: 0.02em;
+    color: var(--font-color);
+    margin-bottom: 16px;
+}
+
+.components-list-title {
+    font-family: var(--main-font);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.18;
+    letter-spacing: 0.02em;
+    color: var(--font-color);
+}
+
+.components-list {
+    font-family: var(--main-font);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.18;
+    letter-spacing: 0.02em;
+    color: var(--font-color);
+    margin-bottom: 16px;
+}
+
+.manual_tbl {
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.section-contacts {
+    height: 284px;
+    background-color: #005dba;
+    padding-top: 60px;
+    padding-left: 16px;
+}
+
+.contacts-title {
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.18;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.contacts-text {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.18;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    margin-bottom: 35px;
+}
+
+.contacts-phone-box {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.contacts-phone-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 15px;
+}
+
+.contacts-phone-number {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 1.18;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    text-decoration: none;
+
+    @media screen and (min-width: 375px) {
+        font-size: 20px;
+    }
+}
+
+.contacts-mail-box {
+    display: flex;
+    align-items: center;
+}
+
+.contacts-mail-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 15px;
+}
+
+.contacts-mail {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 1.18;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+
+    @media screen and (min-width: 375px) {
+        font-size: 20px;
+    }
+}
+
+.section-warning {
+    height: 570px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+
+.warning-lifecare-logo {
+    width: 189px;
+    height: 77px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+.warning-note {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 1.18;
+    letter-spacing: 0.02em;
+    color: #8f8f8f;
+    margin-bottom: 30px;
+}
+
+.warning-text {
+    font-family: Inter;
+    font-weight: 100;
+    font-size: 34px;
+    line-height: 1.18;
+    letter-spacing: 0.02em;
+    color: #8f8f8f;
+    text-align: center;
+
+    @media screen and (min-width: 375px) {
+        font-size: 38px;
+    }
+}
+
+.footer-box {
+    background-color: #005dba;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text {
+    font-family: Open Sans;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
