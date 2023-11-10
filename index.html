@@ -23,21 +23,24 @@
 <body>
     <header>
         <div class="container page-header-box">
-            <!-- <div class="page-header-logo-box">
-                <img src="./images/header_logo.jpg" alt="" class="page-header-logo">
-            </div> -->
-            <div class="page-header-left"></div>
             <div class="page-header-bg">
-                <!-- <img src="./images/header_bg.jpg" alt="" class="page-header"> -->
-                <!-- <svg class="header-svg">
+                <img src="./images/logo.png" alt="" class="page-header-logo">
+                <svg class="header-svg">
                     <use href="./images/svg/header_vector_arrow.svg#1"></use>
                 </svg>
-                <svg class="header-menu">
-                    <use href="./images/svg/header_menu.svg#2"></use>
-                </svg>
-                <svg class="header-close-menu">
-                    <use href="./images/svg/header_close_menu.svg#3"></use>
-                </svg> -->
+                <button type="button" 
+                class="page-header-btn is-open" 
+                aria-expanded="false" 
+                aria-controls="menu-container" 
+                data-menu-button>
+                    <svg width="24px" height="24px">
+                        <use class="header-menu" href="./images/svg/header_menu.svg#2"></use>
+                        <use class="header-close-menu" href="./images/svg/header_close_menu.svg#3"></use>
+                    </svg>
+                </button>
+                <div class="menu-container is-open" id="menu-container" data-menu>
+                    menu
+                </div>
             </div>
         </div>
     </header>
@@ -243,5 +246,6 @@
             <p class="footer-text">Сreated by Level Media</p>
         </div>
     </footer>
+    <script src="mobile-menu.js"></script>
 </body>
 </html>
