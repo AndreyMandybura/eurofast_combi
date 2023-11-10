@@ -124,6 +124,10 @@ p {
     display: none;
 }
 
+.page-header-btn svg {
+    pointer-events: none;
+}
+
 .menu-container {
     display: none;
     position: absolute;
