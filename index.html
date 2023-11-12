@@ -28,19 +28,26 @@
                 <svg class="header-svg">
                     <use href="./images/svg/header_vector_arrow.svg#1"></use>
                 </svg>
-                <button type="button" 
-                class="page-header-btn is-open" 
-                aria-expanded="false" 
-                aria-controls="menu-container" 
+            </div>
+            <button type="button" class="page-header-btn" is-open aria-expanded="false" aria-controls="menu-container"
                 data-menu-button>
-                    <svg width="24px" height="24px">
-                        <use class="header-menu" href="./images/svg/header_menu.svg#2"></use>
-                        <use class="header-close-menu" href="./images/svg/header_close_menu.svg#3"></use>
+                <svg width="24px" height="24px">
+                    <use class="header-menu" href="./images/svg/header_menu.svg#2"></use>
+                    <use class="header-close-menu" href="./images/svg/header_close_menu.svg#3"></use>
+                </svg>
+            </button>
+            <div class="menu-container" is-open id="menu-container" data-menu>
+                    <img src="./images/logo.png" alt="" class="page-header-second-logo">
+                    <svg class="header-second-svg">
+                        <use href="./images/svg/header_vector_arrow.svg#1"></use>
                     </svg>
-                </button>
-                <div class="menu-container is-open" id="menu-container" data-menu>
-                    menu
-                </div>
+                <ul class="menu-list list">
+                    <li class="menu-list-item">Склад</li>
+                    <li class="menu-list-item">Дія препарату</li>
+                    <li class="menu-list-item">Показання</li>
+                    <li class="menu-list-item">Інструкція</li>
+                    <li class="menu-list-item">Де придбати</li>
+                </ul>
             </div>
         </div>
     </header>
@@ -68,8 +75,8 @@
         </section>
         <section class="container">
             <div class="compound-box">
-                <img src="./images/compound_bg_red.png" alt="">
-                <img src="./images/compound_bd_blue.png" alt="">
+                <img class="compound-red" src="./images/compound_bg_red.png" alt="">
+                <img class="compound-blue" src="./images/compound_bd_blue.png" alt="">
                 <p class="compound-title">Синергія компонентів</p>
                 <p class="compound-drugs"><span class="compound-ibu">Ібупрофен</span><span class="compound-plus">+</span><span class="compound-par">Парацетамол</span></p>
                 <p class="compound-dose"><span class="compound-ibu-dose">200 мг</span><span class="compound-par-dose">500 мг</span></p>
