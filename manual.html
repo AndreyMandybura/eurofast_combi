@@ -7,6 +7,9 @@
     <title>Єврофаст Комбі</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,22 +25,34 @@
 </head>
 <body>
     <header>
-        <header>
-            <div class="container page-header-box">
-                <div class="page-header-bg">
-                    <img src="./images/logo.png" alt="" class="page-header-logo">
-                    <svg class="header-svg">
-                        <use href="./images/svg/header_vector_arrow.svg#1"></use>
-                    </svg>
-                    <svg class="header-menu">
-                        <use href="./images/svg/header_menu.svg#2"></use>
-                    </svg>
-                    <svg class="header-close-menu">
-                        <use href="./images/svg/header_close_menu.svg#3"></use>
-                    </svg>
-                </div>
+        <div class="container page-header-box">
+            <div class="page-header-bg">
+                <img src="./images/logo.png" alt="" class="page-header-logo">
+                <svg class="header-svg">
+                    <use href="./images/svg/header_vector_arrow.svg#1"></use>
+                </svg>
             </div>
-        </header>
+            <button type="button" class="page-header-btn" is-open aria-expanded="false" aria-controls="menu-container"
+                data-menu-button>
+                <svg width="24px" height="24px">
+                    <use class="header-menu" href="./images/svg/header_menu.svg#2"></use>
+                    <use class="header-close-menu" href="./images/svg/header_close_menu.svg#3"></use>
+                </svg>
+            </button>
+            <div class="menu-container" is-open id="menu-container" data-menu>
+                <img src="./images/logo.png" alt="" class="page-header-second-logo">
+                <svg class="header-second-svg">
+                    <use href="./images/svg/header_vector_arrow.svg#1"></use>
+                </svg>
+                <ul class="menu-list list">
+                    <li class="menu-list-item">Склад</li>
+                    <li class="menu-list-item">Дія препарату</li>
+                    <li class="menu-list-item">Показання</li>
+                    <li class="menu-list-item">Інструкція</li>
+                    <li class="menu-list-item">Де придбати</li>
+                </ul>
+            </div>
+        </div>
     </header>
     <main>
         <section class="container">
@@ -475,5 +490,6 @@
             </div>
         </footer>
     </main>
+    <script src="./mobile-menu.js"></script>
 </body>
 </html>
