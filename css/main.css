@@ -867,7 +867,7 @@ p {
 }
 
 .section-readings-box {
-    height: 952px;
+    padding-bottom: 60px;
 }
 
 .readings-title {
@@ -876,6 +876,32 @@ p {
     align-items: center;
     padding-top: 60px;
     padding-bottom: 30px;
+}
+
+.readings-first-title {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.18;
+    letter-spacing: 0.02em;
+    color: #000000;
+
+    @media screen and (min-width: 768px) {
+            font-size: 40px;
+        }
+}
+
+.readings-second-title {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 1.18;
+    letter-spacing: 0.02em;
+    color: #000000;
+
+    @media screen and (min-width: 768px) {
+            font-size: 24px;
+        }
 }
 
 .readings-box {
@@ -890,6 +916,17 @@ p {
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 6px;
+
+    @media screen and (min-width: 1440px) {
+            column-count: 2;
+            padding-top: 30px;
+            padding-left: 30px;
+            padding-right: 30px;
+            padding-bottom: 30px;
+            margin-left: 140px;
+            margin-right: 140px;
+            
+        }
 }
 
 .readings-tumb {
@@ -911,6 +948,10 @@ p {
     line-height: 1.18;
     letter-spacing: 0.02em;
     color: #FFFFFF;
+
+    @media screen and (min-width: 1440px) {
+            font-size: 20px;
+        }
 }
 
 .section-metod-box {
