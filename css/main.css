@@ -914,13 +914,17 @@ p {
 }
 
 .section-metod-box {
-    height: 770px;
     background-image: url(../images/effect_second_bg.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 60px;
+
+    @media screen and (min-width: 375px) {
+            padding-bottom: 80px;
+        }
 }
 
 .metod-title {
@@ -934,6 +938,18 @@ p {
     padding-left: 40px;
     padding-right: 40px;
     margin-bottom: 30px;
+
+    @media screen and (min-width: 768px) {
+            text-align: center;
+            font-size: 32px;
+        }
+}
+
+.metod-direction {
+    @media screen and (min-width: 1440px) {
+            display: flex;
+            align-items: center;
+        }
 }
 
 .metod-box {
@@ -947,6 +963,13 @@ p {
     padding-right: 10px;
     padding-bottom: 6px;
     margin-bottom: 30px;
+
+    @media screen and (min-width: 1440px) {
+            margin-bottom: 0px;
+            padding-right: 30px;
+            margin-left: 160px;
+            margin-right: 60px;
+        }
 }
 
 .metod-photo-tumb {
@@ -967,6 +990,11 @@ p {
     line-height: 1.18;
     letter-spacing: 0.02em;
     color: #000000;
+    z-index: 1;
+
+    @media screen and (min-width: 1440px) {
+            font-size: 20px;
+        }
 }
 
 .metod-photo {
@@ -974,13 +1002,21 @@ p {
     height: 284px;
     margin-left: auto;
     margin-right: auto;
+
     @media screen and (min-width: 375px) {
             width: 320px;
         }
+
+    @media screen and (min-width: 1440px) {
+        width: 450px;
+        height: 450px;
+        margin-left: 0;
+        margin-right: 0;
+    }
 }
 
 .section-buy-box {
-    height: 550px;
+    padding-bottom: 60px;
     background-image: url(../images/buy_bg.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -1000,6 +1036,16 @@ p {
     padding-right: 40px;
     padding-top: 60px;
     margin-bottom: 30px;
+
+    @media screen and (min-width: 1024px) {
+            text-align: center;
+            font-size: 38px;
+            margin-bottom: 50px;
+        }
+
+    @media screen and (min-width: 1440px) {
+        margin-bottom: 70px;
+    }
 }
 
 .buy-photo {
@@ -1011,6 +1057,23 @@ p {
 
     @media screen and (min-width: 375px) {
             margin-bottom: 25px;
+        }
+
+    @media screen and (min-width: 1024px) {
+        width: 300px;
+        height: 200px;
+    }
+
+    @media screen and (min-width: 1440px) {
+        width: 377px;
+        height: 276px;
+    }
+}
+
+.buy-thumb {
+    @media screen and (min-width: 1024px) {
+            display: flex;
+            align-items: center;
         }
 }
 
@@ -1024,6 +1087,15 @@ p {
     flex-direction: column;
     align-items: center;
     margin-left: 16px;
+
+    @media screen and (min-width: 768px) {
+            margin-left: 150px;
+        }
+
+    @media screen and (min-width: 1024px) {
+        margin-left: 0;
+        margin-right: 15px;
+    }
 }
 
 .buy-one-btn {
@@ -1038,9 +1110,14 @@ p {
             width: 145px;
         }
     
-        @media screen and (min-width: 425px) {
-            width: 155px;
-        }
+    @media screen and (min-width: 425px) {
+        width: 155px;
+    }
+
+    @media screen and (min-width: 1440px) {
+        width: 235px;
+        height: 108px;
+    }
 }
 
 .buy-twoo-btn {
@@ -1054,9 +1131,14 @@ p {
             width: 145px;
         }
     
-        @media screen and (min-width: 425px) {
-            width: 155px;
-        }
+    @media screen and (min-width: 425px) {
+        width: 155px;
+    }
+    
+    @media screen and (min-width: 1440px) {
+        width: 235px;
+        height: 108px;
+    }
 }
 
 .buy-three-four-box {
@@ -1064,6 +1146,19 @@ p {
     flex-direction: column;
     align-items: center;
     margin-right: 16px;
+
+    @media screen and (min-width: 768px) {
+            margin-right: 150px;
+        }
+    
+    @media screen and (min-width: 1024px) {
+        margin-right: 50px;
+    }
+
+    @media screen and (min-width: 1440px) {
+        margin-right: 100px;
+        margin-left: 100px;
+    }
 }
 
 .buy-three-btn {
@@ -1078,9 +1173,14 @@ p {
             width: 145px;
         }
     
-        @media screen and (min-width: 425px) {
-            width: 155px;
-        }
+    @media screen and (min-width: 425px) {
+        width: 155px;
+    }
+
+    @media screen and (min-width: 1440px) {
+        width: 235px;
+        height: 108px;
+    }
 }
 
 .buy-four-btn {
@@ -1094,16 +1194,36 @@ p {
             width: 145px;
         }
     
-        @media screen and (min-width: 425px) {
-            width: 155px;
-        }
+    @media screen and (min-width: 425px) {
+        width: 155px;
+    }
+
+    @media screen and (min-width: 1440px) {
+        width: 235px;
+        height: 108px;
+    }
 }
 
 .section-contacts {
-    height: 284px;
     background-color: #005dba;
     padding-top: 60px;
     padding-left: 16px;
+    padding-bottom: 60px;
+
+    @media screen and (min-width: 1024px) {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            padding-right: 16px;
+        }
+}
+
+.contacts-box {
+    @media screen and (min-width: 1024px) {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
 
 .contacts-title {
@@ -1114,6 +1234,10 @@ p {
     letter-spacing: 0.02em;
     color: #ffffff;
     margin-bottom: 20px;
+
+    @media screen and (min-width: 1024px) {
+            font-size: 36px;
+        }
 }
 
 .contacts-text {
@@ -1130,6 +1254,10 @@ p {
     display: flex;
     align-items: center;
     margin-bottom: 15px;
+
+    @media screen and (min-width: 1024px) {
+            margin-bottom: 0;
+        }
 }
 
 .contacts-phone-icon {
@@ -1155,6 +1283,10 @@ p {
 .contacts-mail-box {
     display: flex;
     align-items: center;
+
+    @media screen and (min-width: 1024px) {
+            margin-left: 50px;
+        }
 }
 
 .contacts-mail-icon {
@@ -1183,12 +1315,24 @@ p {
     padding-bottom: 50px;
 }
 
+.warning-logo-box {
+    @media screen and (min-width: 1024px) {
+            display: flex;
+            align-items: center;
+        }
+}
+
 .warning-lifecare-logo {
     width: 189px;
     height: 77px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 30px;
+
+    @media screen and (min-width: 1024px) {
+            width: 125px;
+            height: 50px;
+        }
 }
 
 .warning-note {
@@ -1199,6 +1343,10 @@ p {
     letter-spacing: 0.02em;
     color: #8f8f8f;
     margin-bottom: 30px;
+
+    @media screen and (min-width: 1024px) {
+            margin-left: 10px;
+        }
 }
 
 .warning-text {
@@ -1212,6 +1360,14 @@ p {
 
     @media screen and (min-width: 375px) {
             font-size: 38px;
+        }
+    
+    @media screen and (min-width: 1024px) {
+        font-size: 90px;
+    }
+        
+    @media screen and (min-width: 1440px) {
+            font-size: 108px;
         }
 }
 

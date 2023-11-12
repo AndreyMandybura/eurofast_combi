@@ -53,6 +53,19 @@ p {
     width: 100%;
     padding-left: 10px;
     padding-right: 10px;
+
+}
+
+.container-lt {
+    @media screen and (min-width: 1024px) {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    @media screen and (min-width: 1440px) {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
 }
 
 @media screen and (min-width: 425px) {
@@ -270,7 +283,6 @@ p {
         line-height: 1.18;
         letter-spacing: 0.02em;
         color: #ffffff;
-
     }
 
     @media screen and (min-width: 1440px) {
@@ -288,6 +300,23 @@ p {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 30px;
+
+    @media screen and (min-width: 768px) {
+            width: 286px;
+            height: 264px;
+        }
+
+    @media screen and (min-width: 1024px) {
+            width: 286px;
+            height: 264px;
+            margin-left: auto;
+            margin-right: 20px;
+            margin-bottom: 0;
+        }
+
+    @media screen and (min-width: 1440px) {
+        margin-right: 120px;
+    }
 }
 
 .main-title-tumb {
@@ -302,6 +331,16 @@ p {
     letter-spacing: 0.02em;
     color: #7e7e7e;
     margin-bottom: 30px;
+
+    @media screen and (min-width: 1024px) {
+            font-size: 36px;
+        }
+}
+
+.main-title-components {
+    @media screen and (min-width: 1024px) {
+            column-count: 2;
+        }
 }
 
 .main-title-components :nth-child(n) {
@@ -315,6 +354,10 @@ p {
     line-height: 1.18;
     letter-spacing: 0.02em;
     color: #7e7e7e;
+
+    @media screen and (min-width: 1024px) {
+            font-size: 24px;
+        }
 }
 
 .components-title {
@@ -325,6 +368,10 @@ p {
     letter-spacing: 0.02em;
     color: var(--font-color);
     margin-bottom: 16px;
+
+    @media screen and (min-width: 1024px) {
+            font-size: 24px;
+        }
 }
 
 .components-text {
@@ -335,6 +382,10 @@ p {
     letter-spacing: 0.02em;
     color: var(--font-color);
     margin-bottom: 16px;
+
+    @media screen and (min-width: 1024px) {
+            font-size: 20px;
+        }
 }
 
 .components-list-title {
@@ -344,6 +395,10 @@ p {
     line-height: 1.18;
     letter-spacing: 0.02em;
     color: var(--font-color);
+
+    @media screen and (min-width: 1024px) {
+            font-size: 20px;
+        }
 }
 
 .components-list {
@@ -354,6 +409,10 @@ p {
     letter-spacing: 0.02em;
     color: var(--font-color);
     margin-bottom: 16px;
+
+    @media screen and (min-width: 1024px) {
+            font-size: 20px;
+        }
 }
 
 .manual_tbl {
@@ -362,10 +421,25 @@ p {
 }
 
 .section-contacts {
-    height: 284px;
     background-color: #005dba;
     padding-top: 60px;
     padding-left: 16px;
+    padding-bottom: 60px;
+
+    @media screen and (min-width: 1024px) {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            padding-right: 16px;
+        }
+}
+
+.contacts-box {
+    @media screen and (min-width: 1024px) {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
 }
 
 .contacts-title {
@@ -376,6 +450,10 @@ p {
     letter-spacing: 0.02em;
     color: #ffffff;
     margin-bottom: 20px;
+
+    @media screen and (min-width: 1024px) {
+            font-size: 36px;
+        }
 }
 
 .contacts-text {
@@ -392,6 +470,10 @@ p {
     display: flex;
     align-items: center;
     margin-bottom: 15px;
+
+    @media screen and (min-width: 1024px) {
+            margin-bottom: 0;
+        }
 }
 
 .contacts-phone-icon {
@@ -417,6 +499,10 @@ p {
 .contacts-mail-box {
     display: flex;
     align-items: center;
+
+    @media screen and (min-width: 1024px) {
+            margin-left: 50px;
+        }
 }
 
 .contacts-mail-icon {
@@ -445,12 +531,24 @@ p {
     padding-bottom: 50px;
 }
 
+.warning-logo-box {
+    @media screen and (min-width: 1024px) {
+        display: flex;
+        align-items: center;
+    }
+}
+
 .warning-lifecare-logo {
     width: 189px;
     height: 77px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 30px;
+
+    @media screen and (min-width: 1024px) {
+            width: 125px;
+            height: 50px;
+        }
 }
 
 .warning-note {
@@ -461,6 +559,10 @@ p {
     letter-spacing: 0.02em;
     color: #8f8f8f;
     margin-bottom: 30px;
+
+    @media screen and (min-width: 1024px) {
+            margin-left: 10px;
+        }
 }
 
 .warning-text {
@@ -475,6 +577,14 @@ p {
     @media screen and (min-width: 375px) {
         font-size: 38px;
     }
+
+    @media screen and (min-width: 1024px) {
+        font-size: 90px;
+    }
+        
+    @media screen and (min-width: 1440px) {
+            font-size: 108px;
+        }
 }
 
 .footer-box {
