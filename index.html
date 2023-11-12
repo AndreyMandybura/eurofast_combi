@@ -22,7 +22,7 @@
 </head>
 <body>
     <header>
-        <div class="container page-header-box">
+        <div class="container page-header-box" id="main-page">
             <div class="page-header-bg">
                 <img src="./images/logo.png" alt="" class="page-header-logo">
                 <svg class="header-svg">
@@ -42,11 +42,11 @@
                         <use href="./images/svg/header_vector_arrow.svg#1"></use>
                     </svg>
                 <ul class="menu-list list">
-                    <li class="menu-list-item">Склад</li>
-                    <li class="menu-list-item">Дія препарату</li>
-                    <li class="menu-list-item">Показання</li>
-                    <li class="menu-list-item">Інструкція</li>
-                    <li class="menu-list-item">Де придбати</li>
+                    <li class="menu-list-item"><a href="#compound" class="menu-list-link txt-deco">Склад</a></li>
+                    <li class="menu-list-item"><a href="#effect" class="menu-list-link txt-deco">Дія препарату</a></li>
+                    <li class="menu-list-item"><a href="#readings" class="menu-list-link txt-deco">Показання</a></li>
+                    <li class="menu-list-item"><a href="./manual.html" class="menu-list-link txt-deco">Інструкція</a></li>
+                    <li class="menu-list-item"><a href="#where" class="menu-list-link txt-deco">Де придбати</a></li>
                 </ul>
             </div>
         </div>
@@ -64,7 +64,7 @@
                     <p class="hero-text">Коли потрібна сильніша знеболювальна дія<sup class="hero-text-index">1</sup></p>
                     <div class="hero-btn-box">
                         <a href="./manual.html"><button type="button" class="manual-btn"><span class="manual-btn-text">Інструкція</span></button></a>
-                        <a href=""><button type="button" class="where-btn"><span class="where-btn-text">Де придбати</span></button></a>
+                        <a href="#where"><button type="button" class="where-btn"><span class="where-btn-text">Де придбати</span></button></a>
                     </div>
                     <div class="hero-footnote-box">
                         <p class="hero-footnote-first"><sup>1</sup>Мається на увазі, що Єврофаст Комбі особливо придатний для лікування болю, що вимагає сильнішої знеболювальної дії, ніж
@@ -77,7 +77,7 @@
             <div class="compound-box">
                 <img class="compound-red" src="./images/compound_bg_red.png" alt="">
                 <img class="compound-blue" src="./images/compound_bd_blue.png" alt="">
-                <p class="compound-title">Синергія компонентів</p>
+                <p class="compound-title" id="compound">Синергія компонентів</p>
                 <p class="compound-drugs"><span class="compound-ibu">Ібупрофен</span><span class="compound-plus">+</span><span class="compound-par">Парацетамол</span></p>
                 <p class="compound-dose"><span class="compound-ibu-dose">200 мг</span><span class="compound-par-dose">500 мг</span></p>
                 <img src="./images/compound_eurofast.png" alt="" class="compound-eurofast-photo">
@@ -89,7 +89,7 @@
         </section>
         <section class="container">
             <div class="effekt-box">
-                <p class="effect-title">Переконайся в ефективності знеболення</p>
+                <p class="effect-title" id="effect">Переконайся в ефективності знеболення</p>
                 <p class="effect-text">Клінічні дослідження довели високу ефективність<sup>3</sup> Єврофаст Комбі щодо:</p>
                 <div class="effect-tablet-first">
                     <img src="./images/effect_tablet.png" alt="" class="effect-tablet-photo">
@@ -101,7 +101,7 @@
                     <p class="effect-tablet-text">зменшення вираженості гострого болю</p>
                     <span class="effect-tablet-percent">93,2 %</span>
                 </div>
-                    <a href=""><button type="button" class="effect-btn"><span class="effect-btn-text">Де придбати</span></button></a>
+                    <a href="#where"><button type="button" class="effect-btn"><span class="effect-btn-text">Де придбати</span></button></a>
                     <p class="effect-footnote"><sup>3</sup>Згідно з інструкцією до медичного застосування</p>
                 <div class="effect-photo">
                     <img src="./images/effect_photo.png" alt="">
@@ -123,7 +123,7 @@
                 </div>
                 <div class="effect-second-photo-box">
                     <img src="./images/effect_second_photo.png" alt="" class="effect-second-photo">
-                    <button type="button" class="effect-second-btn">Де придбати</button>
+                    <a href="#where"><button type="button" class="effect-second-btn">Де придбати</button></a>
                 </div>
                 <p class="effect-second-footnote"><sup>3</sup>Згідно з інструкцією до медичного застосування</p>
             </div>
@@ -131,7 +131,7 @@
         <section class="container">
             <div class="section-readings-box">
                 <div class="readings-title">
-                    <h1>Показання</h1>
+                    <h1 id="readings">Показання</h1>
                     <h3>Симптоматичне лікування </h3>
                 </div>
                 <div class="readings-box">
@@ -194,7 +194,7 @@
         </section>
         <section class="container">
             <div class="section-buy-box">
-                <p class="buy-title">Придбати Єврофаст Комбі можна тут</p>
+                <p class="buy-title" id="where">Придбати Єврофаст Комбі можна тут</p>
                 <div>
                     <div class="buy-photo">
                         <img src="./images/buy_photo.png" alt="">

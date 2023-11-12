@@ -224,43 +224,47 @@ p {
 }
 
 .menu-list {
-    @media screen and (max-width: 1023px) {
-        font-family: Inter;
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 1.18;
-        letter-spacing: 0.02em;
-        color: #787878;
-    }
-
     @media screen and (min-width: 1024px) {
         display: flex;
-        font-family: Montserrat;
-        font-weight: 400;
-        font-size: 13px;
-        line-height: 1.18;
-        letter-spacing: 0.02em;
-        color: #ffffff;
             }
-
-    @media screen and (min-width: 1440px) {
-        font-size: 18px;
-    }
-
 }
 
 .menu-list-item {
     @media screen and (max-width: 1023px) {
-            margin-bottom: 37px;
+        margin-bottom: 37px;
+    }
+
+    @media screen and (min-width: 1024px) {
+        margin-left: 20px;
+    }
+
+    @media screen and (min-width: 1440px) {
+        margin-left: 50px;
+    }
+}
+
+.menu-list-link {
+    @media screen and (max-width: 1023px) {
+            font-family: Inter;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 1.18;
+            letter-spacing: 0.02em;
+            color: #787878;
         }
 
     @media screen and (min-width: 1024px) {
-            margin-left: 20px;
+            font-family: Montserrat;
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 1.18;
+            letter-spacing: 0.02em;
+            color: #ffffff;
+            
         }
     @media screen and (min-width: 1440px) {
-            margin-left: 50px;
+            font-size: 18px;
         }
-
 }
 
 .hero-box {

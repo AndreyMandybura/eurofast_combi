@@ -111,29 +111,35 @@ p {
 
 .page-header-logo {
     position: absolute;
+    z-index: 999;
     top: 25%;
     left: -100px;
     width: 117px;
     height: 29px;
 }
 
-.page-header-second-logo {
+.page-header-second-logo-link {
     display: none;
 
     @media screen and (min-width: 1024px) {
         display: block;
         position: absolute;
+        z-index: 1;
         top: 25%;
         left: -120px;
         width: 150px;
         height: 45px;
     }
 
-
     @media screen and (min-width: 1440px) {
         width: 200px;
         left: -200px;
     }
+}
+
+.page-header-second-logo-img {
+    width: 150px;
+    height: 45px;
 }
 
 .header-svg {
@@ -227,29 +233,9 @@ p {
 }
 
 .menu-list {
-    @media screen and (max-width: 1023px) {
-        font-family: Inter;
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 1.18;
-        letter-spacing: 0.02em;
-        color: #787878;
-    }
-
     @media screen and (min-width: 1024px) {
         display: flex;
-        font-family: Montserrat;
-        font-weight: 400;
-        font-size: 13px;
-        line-height: 1.18;
-        letter-spacing: 0.02em;
-        color: #ffffff;
     }
-
-    @media screen and (min-width: 1440px) {
-        font-size: 18px;
-    }
-
 }
 
 .menu-list-item {
@@ -265,6 +251,31 @@ p {
         margin-left: 50px;
     }
 
+}
+
+.menu-list-link {
+    @media screen and (max-width: 1023px) {
+        font-family: Inter;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.18;
+        letter-spacing: 0.02em;
+        color: #787878;
+    }
+
+    @media screen and (min-width: 1024px) {
+        font-family: Montserrat;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 1.18;
+        letter-spacing: 0.02em;
+        color: #ffffff;
+
+    }
+
+    @media screen and (min-width: 1440px) {
+        font-size: 18px;
+    }
 }
 
 .main-title-box {
@@ -293,17 +304,17 @@ p {
     margin-bottom: 30px;
 }
 
-.main-title-components {
+.main-title-components :nth-child(n) {
+    margin-bottom: 10px;
+}
+
+.main-title-components-link {
     font-family: var(--main-font);
     font-weight: 500;
     font-size: 18px;
     line-height: 1.18;
     letter-spacing: 0.02em;
     color: #7e7e7e;
-}
-
-.main-title-components :nth-child(n) {
-    margin-bottom: 10px;
 }
 
 .components-title {
