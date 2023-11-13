@@ -1177,6 +1177,14 @@ p {
         height: 58px;
         font-size: 18px;
     }
+
+    @media screen and (min-width: 1560px) {
+        right: 120px;
+        bottom: 0;
+        width: 182px;
+        height: 58px;
+        font-size: 18px;
+    }
 }
 
 .effect-second-footnote {
