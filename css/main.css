@@ -595,6 +595,22 @@ p {
         rgba(1, 95, 189, 1),
         rgba(1, 95, 189, 0.88),
         rgba(1, 95, 189, 0));
+    
+    @media screen and (min-width: 1440px) {
+            display: flex;
+        }
+}
+
+.effect-tumb {
+    @media screen and (min-width: 768px) {
+            padding-left: 80px;
+        }
+
+    @media screen and (min-width: 1440px) {
+            margin-left: 80px;
+            padding-top: 100px;
+            padding-left: 0;
+        }
 }
 
 .effect-title {
@@ -606,6 +622,10 @@ p {
     line-height: 1.18;
     letter-spacing: 0.02em;
     color: #FFFFFF;
+
+    @media screen and (min-width: 1440px) {
+            font-size: 35px;
+        }
 }
 
 .effect-text {
@@ -617,6 +637,10 @@ p {
     line-height: 1.18;
     letter-spacing: 0.02em;
     color: #FFFFFF;
+
+    @media screen and (min-width: 1440px) {
+            font-size: 20px;
+        }
 }
 
 .effect-tablet-first {
@@ -648,6 +672,11 @@ p {
         width: 180px;
         font-size: 16px;
     }
+
+    @media screen and (min-width: 1440px) {
+        font-size: 20px;
+        width: 300px;
+    }
 }
 
 .effect-tablet-percent {
@@ -666,6 +695,10 @@ p {
         margin-left: 35px;
         font-size: 33px;
     }
+
+    @media screen and (min-width: 1440px) {
+        font-size: 38px;
+    }
 }
 
 .effect-tablet-second {
@@ -682,6 +715,11 @@ p {
     background-color: #d12a2a;
     border-radius: 14px;
     border: none;
+
+    @media screen and (min-width: 1440px) {
+            width: 182px;
+            height: 58px;
+        }
 }
 
 .effect-btn-text {
@@ -691,6 +729,10 @@ p {
     line-height: 1.18;
     letter-spacing: 0.02em;
     color: #FFFFFF;
+
+    @media screen and (min-width: 1440px) {
+            font-size: 18px;
+        }
 }
 
 .effect-footnote {
@@ -704,10 +746,20 @@ p {
     color: #FFFFFF;
 }
 
+.effect-photo-box {
+    @media screen and (max-width: 1439px) {
+            width: auto;
+            height: auto;
+            padding-top: 30px;
+        }
+}
+
 .effect-photo {
-    width: auto;
-    height: auto;
-    padding-top: 30px;
+    @media screen and (min-width: 1440px) {
+            width: 782px;
+            height: 714px;
+            padding-top: 0;
+        }
 }
 
 .effect-second-box {
