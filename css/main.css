@@ -70,6 +70,7 @@ p {
     }
 }
 
+
 .page-header-box {
     position: relative;
     display: flex;
@@ -77,19 +78,18 @@ p {
     justify-content: flex-end;
 }
 
-/* .fixed-menu {
+.page-header-wrap {
+    position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+
     @media screen and (min-width: 1024px) {
-                position: fixed;
-                top: 0;
-                left: 0:
-                display: flex;
-                    align-items: center;
-                    justify-content: flex-end;
-                    width: 100%;
-                    z-index: 999;
-                    height: 106px;
-            }
-} */
+            position: fixed;
+            z-index: 999;
+            top: 0;
+        }
+}
 
 .page-header-bg {
     position: relative;
@@ -279,6 +279,12 @@ p {
     @media screen and (min-width: 1440px) {
             font-size: 18px;
         }
+}
+
+.hero-position {
+    @media screen and (min-width: 1024px) {
+        margin-top: 98px;
+    }
 }
 
 .hero-box {
