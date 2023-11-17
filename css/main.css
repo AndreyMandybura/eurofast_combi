@@ -80,14 +80,32 @@ p {
 
 .page-header-wrap {
     position: relative;
-        display: flex;
-        align-items: center;
-        justify-content: flex-end;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 
     @media screen and (min-width: 1024px) {
             position: fixed;
             z-index: 999;
             top: 0;
+            background-color: #FFF;
+        }
+}
+
+.div {
+    display: none;
+
+    @media screen and (min-width: 1024px) {
+        display: block;
+        width: 148px;
+        height: 106px;
+        background-color: #FFF;
+        }
+
+        @media screen and (min-width: 1440px) {
+            width: 270px;
+            height: 106px;
+            background-color: #FFF;
         }
 }
 
@@ -101,7 +119,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-
+    
     @media screen and (min-width: 374px) {
             width: 230px;
         }
