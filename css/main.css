@@ -259,7 +259,7 @@ p {
 }
 
 .menu-container.is-open {
-        display: block;
+        display: flex;
 }
 
 .menu-list {

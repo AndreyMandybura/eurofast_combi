@@ -101,7 +101,7 @@ p {
     align-items: center;
     justify-content: flex-end;
 
-    @media screen and (min-width: 1024px) {
+    @media screen and (min-width: 320px) {
         position: fixed;
         z-index: 999;
         top: 0;
@@ -111,6 +111,13 @@ p {
 
 .div {
     display: none;
+
+    @media screen and (min-width: 320px) {
+            display: block;
+            width: 160px;
+            height: 54px;
+            background-color: #FFF;
+        }
 
     @media screen and (min-width: 1024px) {
         display: block;
@@ -274,13 +281,13 @@ p {
         z-index: 999;
         background-color: #FFFFFF;
         padding-top: 30px;
-        padding-left: 30px;
+        padding-left: 60px;
     }
 
 }
 
 .menu-container.is-open {
-    display: block;
+    display: flex;
 }
 
 .menu-list {
@@ -329,7 +336,7 @@ p {
 }
 
 .main-title-box {
-    padding-top: 30px;
+    padding-top: 54px;
 }
 
 .main-photo {
