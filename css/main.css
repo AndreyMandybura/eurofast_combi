@@ -46,8 +46,6 @@ p {
 
 .container {
     width: 100%;
-    padding-left: 10px;
-    padding-right: 10px;
 }
 
 @media screen and (min-width: 425px) {
@@ -104,13 +102,13 @@ p {
 
     @media screen and (min-width: 1024px) {
             display: block;
-            width: 148px;
+            width: 168px;
             height: 106px;
             background-color: #FFF;
         }
 
         @media screen and (min-width: 1440px) {
-            width: 270px;
+            width: 274px;
             height: 106px;
             background-color: #FFF;
         }
