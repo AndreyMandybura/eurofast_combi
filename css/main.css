@@ -2,6 +2,10 @@ html {
     box-sizing: border-box;
 }
 
+body {
+    margin: 0;
+}
+
 *,
 *::before,
 *::after {
@@ -95,7 +99,7 @@ p {
 
     @media screen and (min-width: 320px) {
             display: block;
-            width: 160px;
+            width: 195px;
             height: 54px;
             background-color: #FFF;
         }
@@ -108,7 +112,7 @@ p {
         }
 
         @media screen and (min-width: 1440px) {
-            width: 274px;
+            width: 290px;
             height: 106px;
             background-color: #FFF;
         }
@@ -251,7 +255,7 @@ p {
             z-index: 999;
             background-color: #FFFFFF;
             padding-top: 30px;
-            padding-left: 60px;
+            padding-left: 90px;
         }
     
 }
